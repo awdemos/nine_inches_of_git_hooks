@@ -1,0 +1,1 @@
+Testing git hook audio output with voice synthesis
