@@ -3,3 +3,5 @@ sounddevice
 numpy
 torch>=2.0.0
 librosa>=0.10.0
+gTTS==2.5.4
+scipy

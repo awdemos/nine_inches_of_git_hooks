@@ -1,0 +1,19 @@
+[project]
+name = "nine-inches-of-git-hooks"
+version = "1.0.0"
+description = "Industrial voice synthesis for git commit messages"
+requires-python = ">=3.10"
+dependencies = [
+    "gitpython>=3.1.45",
+    "gtts>=2.5.4",
+    "numpy>=2.2.6",
+    "scipy>=1.15.3",
+    "sounddevice>=0.5.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "sounddevice",
+    "numpy",
+    "scipy",
+]
